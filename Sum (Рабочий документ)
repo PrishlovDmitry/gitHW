@@ -5,3 +5,30 @@
 # 2. Функция list_from_range(start, end) должна возвращать список чисел от start до end.
 # 3. Собственно функция sum_range(start, end) Необходимо решить эту задачу совместно.
 
+def compare_numbers(num1, num2):
+# дописать тело функции сравнения, которая возвращает true/false
+
+
+def list_from_range(start, end):
+    x = []
+    if compare_numbers(num1, num2):
+        while start < end + 1:
+            x.append(start)
+            start += 1
+        return x
+    else:
+        while start + 1 > end:
+            x.append(end)
+            end += 1
+        return x
+
+
+def sum_range(start, end):
+    result = list_from_range(start, end)
+# дописать тело функции суммирования
+
+
+num1 = start = 3
+num2 = end = 9
+print(sum_range(start, end))
+
