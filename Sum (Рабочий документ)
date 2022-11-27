@@ -28,6 +28,7 @@ def sum_range(start, end):
 # дописать тело функции суммирования
 
 
+
 num1 = start = 3
 num2 = end = 9
 print(sum_range(start, end))
