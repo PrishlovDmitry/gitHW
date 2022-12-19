@@ -11,7 +11,7 @@ def compare_numbers(num1, num2):
 
 def list_from_range(start, end):
     x = []
-    if compare_numbers(num1, num2):
+    if compare_numbers(start, end):
         while start < end + 1:
             x.append(start)
             start += 1
@@ -28,7 +28,6 @@ def sum_range(start, end):
 # дописать тело функции суммирования
 
 
-num1 = start = 3
-num2 = end = 9
+start = int(input())
+end = int(input())
 print(sum_range(start, end))
-
